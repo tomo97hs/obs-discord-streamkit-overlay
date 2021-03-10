@@ -1,0 +1,69 @@
+.avatar {
+    width: 55px !important;
+    height: 55px !important;
+    border-radius: 0px !important;
+    filter: brightness(70%);
+}
+
+.speaking {
+    border-color: rgba(0,255,0,0.7) !important;
+    position: relative;
+    animation-name: speak-now;
+    animation-duration: 5000ms;
+    animation-fill-mode: forwards;
+    filter: brightness(100%) ;
+}
+
+/*Animation settings*/
+@keyframes speak-now {
+    0% { bottom: 0px; }
+    5% { bottom: 10px; }
+    10% { bottom: 0px; }
+    15% { bottom: 10px; }
+    20% { bottom: 0px; }
+    25% { bottom: 10px; }
+    30% { bottom: 0px; }
+    35% { bottom: 10px; }
+    40% { bottom: 0px; }
+    45% { bottom: 10px; }
+    50% { bottom: 0px; }
+    55% { bottom: 10px; }
+    60% { bottom: 0px; }
+    65% { bottom: 10px; }
+    70% { bottom: 0px; }
+    75% { bottom: 0px; }
+    85% { bottom: 10px; }
+    90% { bottom: 0px; }
+    95% { bottom: 10px; }
+    100% { bottom: 0px; }
+}
+
+li.voice-state {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    display: block;
+}
+
+span.name {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    max-width: 75px;
+    max-height: 17px;
+    line-height: 17px !important;
+    white-space: nowrap;
+    text-overflow: clip;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7) !important;
+    padding: 3px !important;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
